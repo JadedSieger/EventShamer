@@ -36,3 +36,5 @@ Removing MODEL_NAME and INDEX_PATH from the list of variables to declutter will 
 ### Some Finalizations:
 - Install ffmpeg and dotenv with pip.
 
+## Running:
+> just a simple `node index.js`.
