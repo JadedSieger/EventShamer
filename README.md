@@ -1,4 +1,5 @@
 # EventShamer
+> # NOTICE: [THIS IS IMPORTANT](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/tree/main) 
 ### First iteration: v1
 ## Monitors keystrokes, mouseclicks and System Processes, as well as RAM and CPU usage.
 ---
