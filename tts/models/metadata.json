@@ -1,0 +1,148 @@
+{
+  "title": "Raiden Shogun EN - Genshin Impact 4.0 (RVC2) (220epoch) (47740steps) (RMVPE)",
+  "author": {
+    "name": "dolyfin",
+    "discordUserId": "310936387291578378"
+  },
+  "md5": "26cbf72fa96ed191a2f2a2f48e4d1f1d",
+  "uploadedAt": "2023-09-17T03:13:26.527Z",
+  "weightsLink": "https://www.weights.gg/models/clmmvx9zy0035wsz75e22cow0",
+  "id": "clmmvx9zy0035wsz75e22cow0",
+  "type": "v2",
+  "tags": [
+    "Anime Character",
+    "Fictional Character",
+    "RVC v2",
+    "English"
+  ],
+  "description": "VA: Anne Yatco\nTrained on 1hr 22m of in game voice lines.\n\nModel:\nhttps://huggingface.co/Dolyfin/Dolyfin/resolve/main/RaidenShogunEN4.0_e220_s47740.zip",
+  "samples": [],
+  "files": [
+    {
+      "name": "model.index",
+      "size": 699535899,
+      "md5": "1c3cc5788fe078dc8c368480d3a2681e"
+    },
+    {
+      "name": "model.pth",
+      "size": 55233441,
+      "md5": "26cbf72fa96ed191a2f2a2f48e4d1f1d"
+    }
+  ],
+  "torchMetadata": {
+    "config": {
+      "spec_channels": 1025,
+      "segment_size": 32,
+      "inter_channels": 192,
+      "hidden_channels": 192,
+      "filter_channels": 768,
+      "n_heads": 2,
+      "n_layers": 6,
+      "kernel_size": 3,
+      "p_dropout": 0,
+      "resblock": "1",
+      "resblock_kernel_sizes": [
+        3,
+        7,
+        11
+      ],
+      "resblock_dilation_sizes": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "upsample_rates": [
+        10,
+        10,
+        2,
+        2
+      ],
+      "upsample_initial_channel": 512,
+      "upsample_kernel_sizes": [
+        16,
+        16,
+        4,
+        4
+      ],
+      "emb_channels": null,
+      "spk_embed_dim": 109,
+      "gin_channels": 256,
+      "sr": 40000
+    },
+    "f0": 1,
+    "version": "v2",
+    "extra_info": {
+      "config": [
+        1025,
+        32,
+        192,
+        192,
+        768,
+        2,
+        6,
+        3,
+        0,
+        "1",
+        [
+          3,
+          7,
+          11
+        ],
+        [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ]
+        ],
+        [
+          10,
+          10,
+          2,
+          2
+        ],
+        512,
+        [
+          16,
+          16,
+          4,
+          4
+        ],
+        109,
+        256,
+        40000
+      ],
+      "info": "220epoch",
+      "sr": "40k",
+      "f0": 1,
+      "version": "v2"
+    }
+  },
+  "url": "https://huggingface.co/Dolyfin/Dolyfin/resolve/main/RaidenShogunEN4.0_e220_s47740.zip",
+  "originalFileList": [
+    "RaidenShogunEN4.0_e220_s47740.pth",
+    "added_IVF5678_Flat_nprobe_1_RaidenShogunEN4.0_v2.index"
+  ]
+}
