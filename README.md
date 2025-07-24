@@ -1,5 +1,6 @@
 # EventShamer
-
+### First iteration: v1
+## Monitors keystrokes, mouseclicks and System Processes, as well as RAM and CPU usage.
 ---
 ## Ever wanted to get shamed by an AI for doing what you want to do?
 > here's your solution 🧨
