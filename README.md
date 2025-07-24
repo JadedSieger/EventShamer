@@ -30,7 +30,9 @@ You must also change this into their corresponding directories
 <img width="856" height="174" alt="image" src="https://github.com/user-attachments/assets/5543e5aa-4643-475c-b201-552fea00cea5" />
 
 <img width="397" height="200" alt="image" src="https://github.com/user-attachments/assets/8e54cbee-164e-4e4f-a175-d2745782ec59" />
-removing MODEL_NAME and INDEX_PATH from the list of variables to declutter will work as only the one in rvc_cmd is used.
+
+Removing MODEL_NAME and INDEX_PATH from the list of variables to declutter will work as only the one in rvc_cmd is used.
+
 ### Some Finalizations:
 - Install ffmpeg and dotenv with pip.
 
