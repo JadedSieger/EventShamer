@@ -1,8 +1,8 @@
 import os
 
 from fairseq import checkpoint_utils
-import torch.serialization  # <-- Add this
-from fairseq.data.dictionary import Dictionary  # <-- And this
+import torch.serialization 
+from fairseq.data.dictionary import Dictionary
 
 def get_index_path_from_model(sid):
     return next(
